@@ -1,0 +1,4 @@
+Witaj, co u ciebie slychac?
+Kolejna linia.
+Nie wiem co tu pisze.
+Fajny ten python.
