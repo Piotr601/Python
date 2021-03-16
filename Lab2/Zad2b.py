@@ -8,12 +8,13 @@ Created on Tue Mar  16 9:40:34 2021
 """
 
 litera = {}
+dlugosc = 0
 suma_liter = 0
 
 with open('zdanie.txt') as plik:
     print('Tekst z pliku:\n')
     for linia in plik:
-        print(linia)
+        print(linia[:-1])
 
         for x in linia:
             x = x.upper()
@@ -24,9 +25,11 @@ with open('zdanie.txt') as plik:
                 else:
                     litera[x] = 1
 
+        dlugosc = dlugosc + len(linia)
+
     print()
     for y in litera:
         print('Litera:',y,' Ilosc:' , litera[y])
 
-print('\nDlugosc zdania (ze spacjami)', len(plik))
+print('\nDlugosc zdania (ze spacjami)', dlugosc)
 print('Dlugosc zdania (bez spacji)', suma_liter)
