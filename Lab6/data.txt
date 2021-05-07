@@ -1,0 +1,21 @@
+HTTP/1.1 303 See Other
+Server: nginx/1.14.1
+Date: Fri, 07 May 2021 12:16:07 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.8
+X-Redirect-By: Moodle
+Location: https://eportal.pwr.edu.pl
+Content-Language: pl
+
+1da
+<!DOCTYPE html>
+<html  lang="pl" xml:lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Przekierowanie</title>
+</head><body><div style="margin-top: 3em; margin-left:auto; margin-right:auto; text-align:center;">Ta strona powinna siê automatycznie prze³adowaæ. Jeœli nic siê nie zmienia proszê u¿yæ hiper³¹cza "Kontynuuj" umieszczonego poni¿ej.<br /><a href="https://eportal.pwr.edu.pl">Kontynuuj</a></div></body></html>
+0
+
