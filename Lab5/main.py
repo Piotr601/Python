@@ -37,7 +37,7 @@ class Kalkulator:
         self.wynik = a * b
 
     # dzielenie
-    def dzielenie(self, a, b):
+    def dzielenie(self, b, a):
         self.wynik = a / b
 
 kalk = Kalkulator()
