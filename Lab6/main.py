@@ -9,8 +9,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client:
     data = str(client.recv(4096), 'utf-8')
     client.close()
 
-    plik = open("data.txt", "w")
-    plik.write(data)
-    plik.close
+plik = open("data.txt", "w")
+plik.write(data)
+plik.close
 
-    print(data)
+print(data)
+
